@@ -1,0 +1,12 @@
+name: tmenet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - pip
+  - pip:
+      - -e .

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "python": "3.12.14",
+  "versions": {
+    "tmenet": "0.1.0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.1",
+    "pytest": "8.4.2"
+  },
+  "tests_passed": 26,
+  "command_smoke_checks_passed": 20,
+  "gpu_runtime_tested": false,
+  "optional_baseline_execution_tested": false,
+  "full_paper_rerun": false,
+  "example_runs": [
+    "joint_GRN_CCC_CPU",
+    "LR_attribution",
+    "random_ATAC_refit",
+    "coupling_permutation_sigma2_ten_repeats"
+  ],
+  "scans": [
+    "Python_AST",
+    "relative_document_links",
+    "private_machine_paths",
+    "credential_assignment_patterns",
+    "maximum_file_size"
+  ],
+  "scan_limit": "Pattern checks are not a comprehensive security audit."
+}

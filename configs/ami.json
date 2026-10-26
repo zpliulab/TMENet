@@ -1,0 +1,29 @@
+{
+  "variant": "real",
+  "normalize": true,
+  "options": {
+    "p": 1,
+    "rho_star": 10.0,
+    "eta": 0.001,
+    "lambda_B": 0.012637796033960466,
+    "lambda_C": 0.007656911415245042,
+    "lambda_X": 0.0,
+    "beta_B": 2.0,
+    "beta_C": 3.802259770124277,
+    "alpha_in": 0.06,
+    "alpha_out": 0.01,
+    "maxIter": 1000,
+    "minIter": 50,
+    "adaptive_step": true,
+    "stationarity_tol": 0.02,
+    "epsilon_abs": 0.0001,
+    "epsilon_rel": 0.001,
+    "tolerance_rel": 0.000001,
+    "scale_every": 0,
+    "seed": 42,
+    "zero_diag_C": false,
+    "zero_diag_B": false,
+    "row_normalize_C": false,
+    "display": true
+  }
+}

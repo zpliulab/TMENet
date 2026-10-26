@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the TMENet software and the relevant method/data references when using this code."
+title: "TMENet: joint regulatory network and spatial cell-cell coupling inference"
+type: software
+version: 0.1.0
+date-released: 2026-10-26
+authors:
+  - family-names: Li
+    given-names: Bowen
+  - family-names: Wang
+    given-names: Tong
+  - family-names: Zhang
+    given-names: Heng
+  - family-names: Liu
+    given-names: Zhi-Ping
+abstract: "Joint matrix-factorization inference of cell-type-specific regulatory networks and spatial coupling, with post-inference ligand-receptor attribution."

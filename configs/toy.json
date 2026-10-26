@@ -1,0 +1,23 @@
+{
+  "variant": "simulation",
+  "normalize": true,
+  "options": {
+    "p": 1,
+    "rho_star": 1.0,
+    "eta": 0.001,
+    "lambda_B": 0.01,
+    "lambda_C": 0.01,
+    "lambda_X": 0.0,
+    "beta_B": 2.0,
+    "beta_C": 2.0,
+    "alpha_in": 0.5,
+    "alpha_out": 0.49,
+    "maxIter": 100,
+    "minIter": 10,
+    "adaptive_step": true,
+    "stationarity_tol": 0.02,
+    "scale_every": 0,
+    "seed": 42,
+    "display": false
+  }
+}

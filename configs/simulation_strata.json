@@ -1,0 +1,39 @@
+{
+  "p_values": [
+    0,
+    0.3333333333333333,
+    0.5,
+    0.6666666666666666,
+    1,
+    2
+  ],
+  "strata": {
+    "large_71_100": {
+      "parameters": {
+        "beta_B": 2.0,
+        "beta_C": 0.001,
+        "lambda_B": 0.01,
+        "lambda_C": 1.7393669587888858,
+        "rho_star": 10.0
+      }
+    },
+    "medium_41_70": {
+      "parameters": {
+        "beta_B": 2.0,
+        "beta_C": 0.001,
+        "lambda_B": 0.01,
+        "lambda_C": 1.0,
+        "rho_star": 10.0
+      }
+    },
+    "small_10_40": {
+      "parameters": {
+        "beta_B": 2.0,
+        "beta_C": 2.0,
+        "lambda_B": 0.01,
+        "lambda_C": 1.0,
+        "rho_star": 0.01
+      }
+    }
+  }
+}

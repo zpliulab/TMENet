@@ -1,0 +1,229 @@
+{
+  "release": "0.1.0",
+  "date": "2026-10-26",
+  "license_declared": false,
+  "source_scope": "selected current/frozen study sources; no original machine paths or patient data",
+  "reference_sources": [
+    {
+      "source_id": "frozen/six_p_simulation_20261009/code/optimizer_snapshot.py",
+      "published_path": "src/tmenet/_core_cpu.py",
+      "source_sha256": "ed4bdaf9f19ace411d2550f742ea9fff250e864aca9c99f022ae1620980de9cf",
+      "published_sha256": "b92cbd008b6de2e9bbc564d5f756a6a2015cf2effaca0ae4ee47402364630aa3",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/moNMTF_Real/moNMTF.py",
+      "published_path": "src/tmenet/_core_real.py",
+      "source_sha256": "8079af452eb909f89161205e6bf02c6bc697c42160d2badb0634f1321893a2dc",
+      "published_sha256": "d8396f0cb6f3ee099972128d334b758cff2e7994287342b0ca7f7dac899bdd53",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "frozen/six_p_simulation_20261009/code/lp_prox.py",
+      "published_path": "src/tmenet/_lp_prox.py",
+      "source_sha256": "afcdacefe381bf5bb2eee04cec6a4f7e3759500c8a01e8ef5c2cda60cec7d134",
+      "published_sha256": "afcdacefe381bf5bb2eee04cec6a4f7e3759500c8a01e8ef5c2cda60cec7d134",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/hcc_projection_fix.py",
+      "published_path": "src/tmenet/_hcc_projection.py",
+      "source_sha256": "de399e49a42e8539bf3335056c0c5050fa052ec9e9c4b2a0ee14681ed1c474eb",
+      "published_sha256": "8a235ff9d6dc13cd630cb9d6d437e94749f88fb141feda52758b20296b7506df",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/grn_benchmark_common.py",
+      "published_path": "reproducibility/benchmarks/grn_benchmark_common.py",
+      "source_sha256": "ab704f9d6214575f88d64913070a75ef108a29cee4f6833e3ab9f7d8b2f59d82",
+      "published_sha256": "00efd06f861a5fb3e138b909414c61f96343a3887b23d5e3a36dea93be312d4d",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/ccc_benchmark_common.py",
+      "published_path": "reproducibility/benchmarks/ccc_benchmark_common.py",
+      "source_sha256": "09599f28685d4a85e946f2935404ca31447d15d11e05c401b73bb6df4371fc53",
+      "published_sha256": "d9e63d2fcb4bf0c42830427edb8f25326e53907de86ff8725889415d5a5281f3",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/benchmark_lr_contribution_v2.py",
+      "published_path": "reproducibility/benchmarks/benchmark_lr_contribution_v2.py",
+      "source_sha256": "418e5a701e882f679cdcbe092910149bfcd61387e634e0a91cd14a5472df1207",
+      "published_sha256": "9c00f3edff3ed8bd4bf8a7835605f9706fc263b65afd1e00c0010078adf57514",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_python_classical.py",
+      "published_path": "reproducibility/benchmarks/run_python_classical.py",
+      "source_sha256": "b65e555e3f748f4ef6c051350c0657d4667e54363e200c4973f7a2853d01c2a8",
+      "published_sha256": "a798e6177022b95361d86715fcd1cbe6247ddc3b518829f86abe0a82084d5b46",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_python_specialized.py",
+      "published_path": "reproducibility/benchmarks/run_python_specialized.py",
+      "source_sha256": "c5025b55ed66a1a4067ef6dfe21bdd6eb03a7c7befc5eefaa614920d39eecec0",
+      "published_sha256": "e37ec0137dc3cd10b60c6ff2be7ba8421aa95f66ca58af7fbde4706c3a759e11",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_r_classical.R",
+      "published_path": "reproducibility/benchmarks/run_r_classical.R",
+      "source_sha256": "5dcace3cd92f0d569fce72862bf061062fc9717f058f550cd3de264be2fa4ccb",
+      "published_sha256": "7e48c00e35ab63cf3469f7ec2164da05b67ba5050c3b44c5d2cb9526434239c2",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_python_ccc_baselines.py",
+      "published_path": "reproducibility/benchmarks/run_python_ccc_baselines.py",
+      "source_sha256": "0f0b840b7d12e5bae3dcf5baad561cf50eb2495d0544394d9d5c8f3e6ee63247",
+      "published_sha256": "b3851470888b56ebf43c29537af4e68e67762d8667aa97ae702941cde5746c9e",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_cellchat_group_native.R",
+      "published_path": "reproducibility/benchmarks/run_cellchat_group_native.R",
+      "source_sha256": "16f892d81d743852732c0f5d4fd8c45417b4bc672cb1d763481e1e0987b7d0ba",
+      "published_sha256": "16f892d81d743852732c0f5d4fd8c45417b4bc672cb1d763481e1e0987b7d0ba",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/run_cpdb_group_native.py",
+      "published_path": "reproducibility/benchmarks/run_cpdb_group_native.py",
+      "source_sha256": "c9b9ca3ad452de18f5ec36037768f0bd354868e4d4ee177a3fdcddeb48bc5e8d",
+      "published_sha256": "a31fa1700dac625416741658dbc85a2ac4ce1f0f3a21cd4ca432fd1fb08e10f5",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/build_cpdb_simulated_databases.py",
+      "published_path": "reproducibility/benchmarks/build_cpdb_simulated_databases.py",
+      "source_sha256": "8637e0a790fd23310feab4ff0634db84572fb4d71252ccaea3e2a8e334190742",
+      "published_sha256": "47eb50d21f95247c8032482c236ff8ea4fda5a3383fc10f4a38d85374e5a0630",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/nichenet_custom_20261015/run_custom_batch.R",
+      "published_path": "reproducibility/nichenet_custom/run_custom_batch.R",
+      "source_sha256": "3078fe498b84694167ed95b3f8fc88a2b5c8a3001f37976fd7a75f7834a36a87",
+      "published_sha256": "3078fe498b84694167ed95b3f8fc88a2b5c8a3001f37976fd7a75f7834a36a87",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/nichenet_custom_20261015/custom_core.R",
+      "published_path": "reproducibility/nichenet_custom/custom_core.R",
+      "source_sha256": "e4a514289d2cd24cece69f575588bb77a4d6d312961b603364ac51b7ce8a36ce",
+      "published_sha256": "e4a514289d2cd24cece69f575588bb77a4d6d312961b603364ac51b7ce8a36ce",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/nichenet_custom_20261015/evaluate_custom.py",
+      "published_path": "reproducibility/nichenet_custom/evaluate_custom.py",
+      "source_sha256": "aa1a6cb3d2b28b68311ba2bb537fc21a7b917dc7e787509f842abdd2b24d623e",
+      "published_sha256": "81afd8f9cd1251fea6ef24970913f7429ddb88735daa3354687ed5d7f259c233",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/nichenet_custom_20261015/verify_prior_alignment.py",
+      "published_path": "reproducibility/nichenet_custom/verify_prior_alignment.py",
+      "source_sha256": "366d27a220058dd3a52aec2b7e6b2a68ddeb758a24bc53ba657aae1bea67755a",
+      "published_sha256": "5f82e2003fd9a6d41efbc075f4e3bd63eaea8009932b7ac87971f7fee1b9592e",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/build_hcc_pcacmi_fixed.R",
+      "published_path": "reproducibility/preprocessing/build_hcc_pcacmi_fixed.R",
+      "source_sha256": "889ce7f302771d50c2351665647e49c568642c32f1cef4efec8d2d6cae88fb2d",
+      "published_sha256": "d2008c0b799c1ef62f491304adaa4abed4314bb1f5f57713d8d1ab524a5db3f9",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/scMultiSim/generate_scmultisim_v2.R",
+      "published_path": "reproducibility/simulation/generate_scmultisim.R",
+      "source_sha256": "bda9c23a504b0f08e7d315bb2cdec64d65461ef5b6a8456db188298daedb2fb0",
+      "published_sha256": "bda9c23a504b0f08e7d315bb2cdec64d65461ef5b6a8456db188298daedb2fb0",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/scMultiSim/redesign_simulated_cci.py",
+      "published_path": "reproducibility/simulation/design_cci.py",
+      "source_sha256": "337dadb17da1747e0ec6df11c601a8e53e026b2416993dd6f9b240a46add7b77",
+      "published_sha256": "22f206b27eaec648470b1a9237ad465542772b6891a53bad46796d6eafd8cdb9",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/DataPreProcess/SimData/prepare_scmultisim_v2.py",
+      "published_path": "reproducibility/simulation/prepare_scmultisim.py",
+      "source_sha256": "c83d0174ab6f764cb2d680b1980f351d28b50064b3e98a135c8e259098f45793",
+      "published_sha256": "32077470a1824fa7517df7be00fd31f63b6b1f81f390f4784da4d6b89c518b94",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/DataPreProcess/SimData/prepare_simulation_ccc.py",
+      "published_path": "reproducibility/simulation/prepare_simulation_ccc.py",
+      "source_sha256": "ad5fb70a923536e17cbbaec7d244e90cd72df4c4f891047f87d7c237330faa59",
+      "published_sha256": "e77bcd0fe799523db9c2529a4efdc64975576cf6838f8a14fb46e97abbc63a99",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "current/diagnostics/export_scmultisim_lr_truth.R",
+      "published_path": "reproducibility/simulation/export_scmultisim_lr_truth.R",
+      "source_sha256": "d343c6bc83cc6bd57934e42e25c452eb1f00884483c0e5c1b945f963258ea445",
+      "published_sha256": "d343c6bc83cc6bd57934e42e25c452eb1f00884483c0e5c1b945f963258ea445",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "frozen/random_atac_simdata_v3_20261019/code/randomize_prior.py",
+      "published_path": "reproducibility/ablations/randomize_prior.py",
+      "source_sha256": "5e77b1e5c4472c55de6f49ed2e7d926b0c3546ff13586cbc398bc9d816fa1c52",
+      "published_sha256": "5e77b1e5c4472c55de6f49ed2e7d926b0c3546ff13586cbc398bc9d816fa1c52",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "frozen/ccc_coupling_permutation_20261020/code/permutation.py",
+      "published_path": "reproducibility/ablations/permutation.py",
+      "source_sha256": "6867baf2a48e5b4766db8dc9c0c29a1734d328e61c737a9540b0049987afd7df",
+      "published_sha256": "f073c43559dada65e4c095fc8918b209275ec8325d67207882763c73dabef523",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "frozen/ccc_coupling_sigma2_posthoc_20261021/code/noise.py",
+      "published_path": "reproducibility/ablations/coupling_noise.py",
+      "source_sha256": "773edb5a664feb2eb47fc1aebb240df1145888f56f28ac86a670f37fdb0d0d71",
+      "published_sha256": "1d55bb8b06f2db84a6d3ad2ae5b7076f27ccaadad8346acf822b33d7a8670caa",
+      "changes": "Path/whitespace portability; package-relative helper import and GPU-detection fallback where applicable; final hash reflects any documented portability edits"
+    },
+    {
+      "source_id": "frozen/six_p_simulation_20261009/code/joint_runner_snapshot.py",
+      "published_path": "reproducibility/simulation/legacy_joint.py",
+      "source_sha256": "c8b8b1d08515945382d5bd39d54271d345f44a0f84c183401828c651cdd22349",
+      "changes": "Portable imports/default paths/config field access; original fitting, initialization, normalization, export and scoring bodies retained; final hash reflects any documented portability edits",
+      "published_sha256": "803d29a09c63fc2b6eb24b5daa558baf7bb5156617fa22b087b45d3c73175ff3"
+    },
+    {
+      "published_path": "reproducibility/simulation/legacy_io.py",
+      "derived_from": [
+        {
+          "source_id": "current/moNMTF_Sim/run.py",
+          "source_sha256": "02041781e8bee1fdda7f35d639391944603eeaa88fec938ed3f295e48923a179"
+        },
+        {
+          "source_id": "current/moNMTF_Sim/refer_moNMTF.py",
+          "source_sha256": "46abdc6d34e0429b2e697b5ddc8bae35331d369f889d8d74cfcd711586dff6bb"
+        }
+      ],
+      "published_sha256": "56d70d02fbe8199cadc5c22cc68b05938c57cc8859f5ae760d61be4b2c78decd",
+      "changes": "AST extraction of load_matrix, align_distance_and_knn, build_blockdiag_B_mask; no function-body rewrite"
+    }
+  ],
+  "adapter_files": "Public API, CLI, tests, examples and documentation are release adapters, not additional fitted experimental results.",
+  "portability_notes": [
+    "Reference CPU core retained with line-ending/whitespace normalization.",
+    "Real core GPU availability fallback and projection-helper package import adapted.",
+    "Exact fractional proximal map used by the recorded six-p workers.",
+    "Optional CellPhoneDB imports are lazy so help does not require the external package.",
+    "NicheNet evaluation exposes output root and uses threads for portable shared configuration; scoring remains unchanged.",
+    "Spatial-distance API uses equivalent Euclidean cdist instead of deprecated distance_matrix.",
+    "Legacy joint-runner input normalization, initialization and export convention retained; generic public API orientation is explicitly separate."
+  ]
+}
